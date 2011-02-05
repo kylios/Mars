@@ -1,0 +1,83 @@
+body {
+    background: black;
+    color: white;
+    font-family: tahoma,Arial,Helvetica,sans-serif;
+    text-align: left;
+}
+
+body a, body a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Header section */
+
+div.header {
+    border: 1px solid white;
+    background: black;
+    color: white;
+    font-size: 10pt;
+    width: 800px;
+    margin: 5px;
+    text-align: left;
+}
+
+div.header > span.button {
+    position: relative;
+    margin: 5px 10px 5px 18px;
+    padding-right: 10px;
+    padding-left: 2px;
+}
+
+div.header > span.button > a {
+    text-decoration: none;
+}
+
+div.header > span.button.dropdown {
+    background: url(/img/white_down_arrow_5px.png) no-repeat right center;
+}
+
+div.header > span.button:hover {
+    background: #00d4d2;
+    color: black;
+}
+
+div.header > span.button.dropdown > div.items {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 16px;
+    z-index: 100;
+    background: black;
+    border: 1px solid white;
+}
+
+div.header > span.button.dropdown > div.items > div.item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+div.header > span.button.dropdown > div.items > div.item:hover {
+    background: white;
+    color: black;
+}
+
+div.header > span.button.dropdown > div.items > div.item:hover > a {
+    color: black;
+}
+
+div.header > span.button.dropdown:hover > div.items {
+    display: block;
+}
+
+/* Body section */
+
+div.body {
+    border: 1px solid white;
+    width: 800px;
+    min-height: 800px;
+    margin: 5px;
+    text-align: left;
+}

@@ -1,0 +1,57 @@
+div.body > div.mars_image {
+    background: url(/img/Mars_Valles_Marineris.jpeg);
+    height: 150px;
+    width: 794px;
+    border: 3px solid #005fd4;
+    position: relative;
+}
+
+div.body > div.mars_image > div.mars_text {
+    padding-left: 28px;
+    padding-top: 8px;
+    color: #912f0b;
+    font-weight: bold;
+    font-size: 28pt;
+}
+
+div.body > div.mars_image > div.courtesy_nasa {
+    bottom: 0px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    color: white;
+    font-size: 8pt;
+    position: absolute;
+}
+
+/* Main content area */
+div.content {
+    padding: 12px;
+    color: white;
+    font-size: 12pt;
+}
+
+/* Table styles */
+div.content table {
+    font-size: 10pt;
+}
+
+div.content table td {
+    padding: 5px;
+}
+
+div.content table td.bold {
+    vertical-align: top;
+    font-weight: bold;
+}
+
+/* List styles */
+div.content ul {}
+div.content ul > li {
+    list-style-type: disc;
+}
+
+div.content ul > li, div.content ol > li {
+    list-style-position: outside;
+    padding-left: 3px;
+    margin-left: -26px;
+}
